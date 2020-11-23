@@ -1,6 +1,10 @@
 iframe {
     max-width: 100%
 }
+body, input, select, textarea {		
+		font-weight: 300;
+		/* font-weight auf 300 gesetzt */
+	}
  /*source: http://maddesigns.de/responsive-iframes-2417.html */
 .embed-container {
     position: relative;
