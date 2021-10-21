@@ -3,6 +3,29 @@ body, input, select, textarea {
 		font-weight: 300;
 		/* font-weight auf 300 gesetzt */
 	}
+/* quotes */
+:lang(en) {
+    	quotes: "“" "”" "‘" "’";
+    }
+
+    :lang(de) {
+    	quotes: "„" "“" "‚" "‘";
+    }
+
+    :lang(fr) {
+    	quotes: "«" "»" "‹" "›";
+    }
+    q { 
+  display: inline;
+}
+
+q:before { 
+  content: open-quote;
+}
+
+q:after { 
+  content: close-quote;
+}
 /*  iframes */
  /*source: http://maddesigns.de/responsive-iframes-2417.html */
 iframe {
