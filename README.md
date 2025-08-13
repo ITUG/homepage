@@ -1,6 +1,7 @@
 # itug_homepage
 
 http://www.itug.de
+**Alternativzugang** https://itug.github.io/homepage/ 
 
 ## Credits
 ###   Layout: 
